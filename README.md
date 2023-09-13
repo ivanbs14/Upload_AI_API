@@ -1,1 +1,2 @@
-<!-- inicilaizando com  --> pnpm run dev
+<!-- inicializando com  --> pnpm run dev
+<!-- Visualizar banco de dados --> pnpm prisma studio
