@@ -1,10 +1,10 @@
 import { FastifyInstance } from "fastify";
 import { fastifyMultipart} from "@fastify/multipart";
-import path from "node:path";
-import { randomUUID } from "node:crypto";
+import path from "path";
+import { randomUUID } from "crypto";
 import fs from "node:fs";
-import { pipeline } from "node:stream";
-import { promisify } from "node:util";
+import { pipeline } from "stream";
+import { promisify } from "util";
 import { prisma } from "../lib/prisma";
 
 // transforming old function to use promisify
