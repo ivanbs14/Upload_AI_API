@@ -23,3 +23,15 @@ Content-Type: application/json
 {
    "prompt": "api, rest, restfull"
 }
+
+###
+
+# @name generate
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+   "videoId": "ce2e55a5-9599-47a6-b3c0-bfd98be43745",
+   "temperature": 0.5,
+   "template": "Gere um resumo sucinto da transcriçao do video informada a seguir: '''{transcription}'''"
+}
