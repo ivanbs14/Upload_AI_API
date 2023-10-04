@@ -17,11 +17,11 @@ Content-Type: audio/mpeg
 ###
 
 # @name create-transcription
-POST http://localhost:3333/video/ce2e55a5-9599-47a6-b3c0-bfd98be43745/transcription
+POST http://localhost:3333/video/720cee1a-734b-4e88-8354-b5e129332449/transcription
 Content-Type: application/json
 
 {
-   "prompt": "api, rest, restfull"
+   "prompt": "Tailwind, Prettier, ESLint"
 }
 
 ###
@@ -33,5 +33,5 @@ Content-Type: application/json
 {
    "videoId": "ce2e55a5-9599-47a6-b3c0-bfd98be43745",
    "temperature": 0.5,
-   "template": "Gere um resumo sucinto da transcriçao do video informada a seguir: '''{transcription}'''"
+   "prompt": "Gere um resumo sucinto da transcriçao do video informada a seguir: '''{transcription}'''"
 }
